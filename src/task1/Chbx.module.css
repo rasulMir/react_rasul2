@@ -1,0 +1,10 @@
+.lbl {
+	display: block;
+	text-transform: capitalize;
+	font-weight: 600;
+	user-select: none;
+}
+
+.chbx{
+
+}
