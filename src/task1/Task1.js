@@ -9,17 +9,17 @@ class Task1 extends React.Component {
 			isDarkMode : false
 		}
 	}
+	
 	changeHandler = (ev) => {
 		let isChecked = ev.target.checked;
 		this.setState({
 			isDarkMode : isChecked
 		});
 	}
-	
+
 	getClassNameMode = () => (this.state.isDarkMode) ? task1.card_dark : task1.card_white;
 
 	render() {
-		console.log(task1.card);
 		return(
 			<div className={` ${task1.card} ${ this.getClassNameMode() } `}>
 				<h2 className={task1.title}>

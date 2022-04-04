@@ -1,0 +1,74 @@
+.wrap {
+	margin: 50px auto;
+	padding: 10px;
+	max-width: 300px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	color: red;
+}
+
+.itemsWrap {
+	width: 200px;
+	margin: 15px 0 0 0;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 5px 0;
+	padding: 5px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid transparent;
+	border-color: grey transparent grey transparent;
+	animation: animate .4s linear 1;
+}
+
+@keyframes animate {
+	0% {
+		background-color: rgb(252, 104, 104);
+	}
+
+	100% {
+		background-color: rgb(252, 104, 104);
+	}
+}
+
+.txt {
+	flex: 1 0;
+	padding: 5px;
+	user-select: none;
+}
+
+.del {
+	background-color: rgb(228, 89, 89);
+	border: none;
+	text-transform: uppercase;
+	padding: 5px;
+	color: white;
+}
+
+.toDoInpTxt {
+	border: 1px solid grey;
+	outline: none;
+	padding: 5px;
+	margin: 0 10px 0 0;
+}
+
+.addBtn {
+	background-color: rgb(24, 105, 226);
+	border: none;
+	text-transform: uppercase;
+	padding: 5px;
+	color: white;
+}
+.done {
+	text-decoration: line-through;
+}
+
+
