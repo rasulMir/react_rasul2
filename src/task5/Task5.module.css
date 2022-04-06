@@ -1,0 +1,47 @@
+.wrap {
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	padding: 20px;
+	width: 300px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #fff;
+}
+
+.txt {
+	position: relative;
+	padding: 0 0 0 40px;
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.quote {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	font-size: 80px;
+	line-height: .5;
+}
+
+.author {
+	margin: 0 0 10px 0;
+	text-align: right;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.btn {
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+}
