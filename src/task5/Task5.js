@@ -26,6 +26,7 @@ export default class Task5 extends React.Component {
 	}
 
 	render() {
+
 		const quotes = [
 			{color : '#332022', txt : 'Я такая счастливая!!!', author : 'мария соколова1'},
 			{color : 'red', txt : 'Lorem ipsum dolor sit amet consectetur', author : 'мария соколова2'},

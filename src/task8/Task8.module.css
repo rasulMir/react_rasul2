@@ -1,0 +1,39 @@
+.top {
+	margin: 50px 0 20px;
+}
+
+.top > p {
+	padding: 20px;
+}
+
+.water {
+	background-color: blue;
+}
+
+.steam {
+	background-color: red;
+}
+
+.ice {
+	background-color: rgb(125, 125, 255);
+}
+
+.btns {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.btn {
+	border: 1px solid transparent;
+	outline: none;
+	font-size: 16px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: .5em 1em;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+}
+
+.btn:hover {
+	border-color: rgb(26, 26, 26);
+}
